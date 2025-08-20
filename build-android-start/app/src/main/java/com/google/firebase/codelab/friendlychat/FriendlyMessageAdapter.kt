@@ -125,7 +125,7 @@ class FriendlyMessageAdapter(
 
     override fun stopListening() {
         super.stopListening()
-        //notifyDataSetChanged()
+        notifyDataSetChanged()
     }
 
     private fun loadWithGlide(view: ImageView, url: String, isCircular: Boolean = true) {

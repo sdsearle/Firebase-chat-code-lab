@@ -140,7 +140,6 @@ class MainActivity : AppCompatActivity() {
     public override fun onPause() {
         adapter.stopListening()
         super.onPause()
-        adapter.notifyDataSetChanged()
     }
 
     public override fun onResume() {
